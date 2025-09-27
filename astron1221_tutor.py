@@ -176,7 +176,7 @@ class AITutor:
         # Prepare context from retrieved chunks
         context = "\n\n".join([chunk['text'][:400] for chunk in relevant_chunks])
         
-        # Simple prompt for Claude
+        # Simple prompt for Claude with strict length constraints
         prompt = f"""Answer this student's question about astronomy programming based on the course materials:
 
 Question: {question}
@@ -184,12 +184,12 @@ Question: {question}
 Course Materials:
 {context}
 
-Provide a clear, helpful answer as an astronomy programming tutor."""
+IMPORTANT: Provide a clear, helpful answer as an astronomy programming tutor. Keep your response concise and under 400 words (approximately 500 tokens). Do not exceed this limit. Focus on the most essential information to answer the question directly."""
         
         try:
             response = self.client.messages.create(
                 model="claude-3-haiku-20240307",
-                max_tokens=300,
+                max_tokens=500,
                 messages=[{"role": "user", "content": prompt}]
             )
             return response.content[0].text
@@ -254,7 +254,7 @@ def main():
     # Initialize chat history
     if "messages" not in st.session_state:
         st.session_state.messages = [
-            {"role": "assistant", "content": "Hello! I'm your astronomy programming tutor. I can help you with questions about Python, NumPy, matplotlib, data analysis, and all the topics covered in the course materials. What would you like to learn about?"}
+            {"role": "assistant", "content": "Hello! I'm your astronomy programming tutor. I can help you with questions about what we have learned so far in astron 1221."}
         ]
     
     # Display chat history
