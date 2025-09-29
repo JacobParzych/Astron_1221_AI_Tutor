@@ -2,5 +2,6 @@ streamlit
 sentence-transformers
 anthropic
 numpy
+matplotlib
 python-dotenv
 torch
