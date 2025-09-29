@@ -41,7 +41,7 @@ User Question → Semantic Search → Context Retrieval → AI Generation → Re
 
 ### **Technology Stack**
 - **Frontend**: Streamlit web framework
-- **AI Model**: Anthropic Claude 3 Haiku
+- **AI Model**: Anthropic Claude 4 Sonnet
 - **Embeddings**: Sentence Transformers (all-MiniLM-L6-v2)
 - **Vector Search**: Cosine similarity with PyTorch tensors
 - **Language**: Python 3.8+
@@ -74,7 +74,7 @@ ANTHROPIC_API_KEY=your-api-key-here
 
 ### 4. **Run the Application**
 ```bash
-streamlit run astron1221_tutor.py
+streamlit run app.py
 ```
 
 ### 5. **Start Chatting**
@@ -146,7 +146,7 @@ project1/
 
 ### **API Settings**
 - **Token Limit**: 500 tokens per response (~375 words)
-- **Model**: Claude 3 Haiku (fast, cost-effective)
+- **Model**: Claude 4 Sonnet (fast, cost-effective)
 - **Context**: Top 3 most relevant chunks per query
 - **Similarity Threshold**: 0.1 minimum for relevance
 
