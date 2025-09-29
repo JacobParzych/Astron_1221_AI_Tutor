@@ -27,7 +27,15 @@ An intelligent AI tutor that helps students learn astronomy programming concepts
 - **Error Handling**: Robust error management with helpful messages
 - **Performance Optimization**: Smart caching prevents reloading of embeddings
 
-## 🏗️ Architecture
+## � Live Demo
+
+**🚀 Try it now!** The Astronomy AI Tutor is live and ready to use:
+
+**👉 [https://astron-1221-ai-tutor.streamlit.app/](https://astron-1221-ai-tutor.streamlit.app/)**
+
+Simply visit the link above to start chatting with the AI tutor instantly! No installation required - just enter your Anthropic API key and begin asking questions about astronomy programming.
+
+## �🏗️ Architecture
 
 ### **RAG Pipeline**
 ```
@@ -264,8 +272,8 @@ This project is developed for educational purposes as part of ASTRON 1221. Pleas
 
 ## 👥 Authors
 
-- **Jacob Parzych** - *Project Development and Implementation*
-- **Niko Jamison** - *[Add specific contributions]*
+- **Jacob Parzych** - 
+- **Niko Jamison** - 
 
 ## 🙏 Acknowledgments
 
