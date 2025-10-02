@@ -250,30 +250,14 @@ This project demonstrates proficiency in:
 - **Multi-model Support**: Integration with GPT-4, Gemini, and other LLMs
 - **Real-time Updates**: Live reloading when lecture materials change
 
-## 🤝 Contributing
-
-We welcome contributions! Here's how to get started:
-
-1. **Fork the repository**
-2. **Create a feature branch**: `git checkout -b feature-name`
-3. **Make your changes** with clear commit messages
-4. **Add tests** for new functionality
-5. **Submit a pull request** with a detailed description
-
-### **Development Guidelines**
-- Follow PEP 8 style guidelines
-- Add docstrings to all functions and classes  
-- Include error handling for edge cases
-- Update README for new features
-
 ## 📜 License
 
 This project is developed for educational purposes as part of ASTRON 1221. Please respect course policies regarding code sharing and collaboration.
 
 ## 👥 Authors
 
-- **Jacob Parzych** - 
-- **Niko Jamison** - 
+- **Jacob Parzych** - Created repository and overall three class structure. Created tests and error handling. Created markdowns and README file.
+- **Niko Jamison** - Tracked statistics and created plots. Adapted the initial program into streamlit application. Created markdowns in jupyter notebook.
 
 ## 🙏 Acknowledgments
 
@@ -281,15 +265,6 @@ This project is developed for educational purposes as part of ASTRON 1221. Pleas
 - **Anthropic** - For Claude AI API access
 - **Sentence Transformers Team** - For open-source embedding models
 - **Streamlit** - For the excellent web framework
-
-## 📞 Support
-
-Having issues? Here's how to get help:
-
-1. **Check the Troubleshooting section** above
-2. **Review the Issues tab** on GitHub
-3. **Create a new issue** with detailed error messages
-4. **Contact course staff** for academic questions
 
 ---
 

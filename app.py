@@ -188,7 +188,7 @@ IMPORTANT: Provide a clear, helpful answer as an astronomy programming tutor. Ke
         
         try:
             response = self.client.messages.create(
-                model="claude-3-haiku-20240307",
+                model="claude-sonnet-4-5-20250929",
                 max_tokens=500,
                 messages=[{"role": "user", "content": prompt}]
             )
